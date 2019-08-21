@@ -1,4 +1,5 @@
 **Why I did this**
+
 I got bored one day and went onto 4chan because I wanted to see what was on that site.
 I found out about recurring thread topics and I found one in particular that I liked a lot.
 It was called 'YGYL' or 'You Groove, You Lose'.
@@ -13,6 +14,7 @@ I decided that this would be a good time to learn how to webscrape.
 I picked up BeautifulSoup so that I could scrape the HTML off the pages.
 
 **What this program does**
+
 This program is a web scraper designed for a 4chan archive website.
 It scrapes the HTML to find relevant threads pertaining to specific key terms.
 Once it finds a relevant thread, it catalogs the comments and its hierarchy.
@@ -25,6 +27,7 @@ There is also a record of links that is kept so that links aren't redownloaded m
 All downloads are organized in a folder.
 
 **UPDATE**
+
 Apparently the person who owns the archive site has caught onto my scraping.
 They have since restructured their website so that the data pertaining to the links of the files are now hidden in JS.
 Now I do know a workaround for this. All I'd need to do is use Selenium to scrape the JS and extract the data.
